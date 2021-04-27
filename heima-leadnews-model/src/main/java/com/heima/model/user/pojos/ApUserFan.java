@@ -80,5 +80,7 @@ public class ApUserFan implements Serializable {
      */
     @TableField("is_shield_comment")
     private Boolean isShieldComment;
+//    TDD
+
 
 }
