@@ -23,6 +23,7 @@ public class AdChannelServiceImpl extends ServiceImpl<AdChannelMapper, AdChannel
 
     @Override
     public ResponseResult findByNameAndPage(ChannelDto dto) {
+
         //1.检查参数
         if(null == dto){
             return ResponseResult.errorResult(AppHttpCodeEnum.PARAM_INVALID);

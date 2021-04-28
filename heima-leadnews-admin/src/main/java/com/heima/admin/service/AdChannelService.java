@@ -19,7 +19,11 @@ public interface AdChannelService extends IService<AdChannel> {
      * @param adChannel
      * @return
      */
+
     public ResponseResult insert(AdChannel adChannel);
+
+
+
 
     /**
      * 修改频道
